@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>lxterminal</execute>
+			</action>
+		</item>
+		<item label="Archivos">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="Telegram">
+			<action name="Execute">
+				<execute>telegram-desktop</execute>
+			</action>
+		</item>
+		<item label="Pidgin">
+			<action name="Execute">
+				<execute>pidgin</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-163431" label="Internet">
+			<item label="aMule">
+				<action name="Execute">
+					<execute>amule</execute>
+				</action>
+			</item>
+			<item label="Transmission">
+				<action name="Execute">
+					<execute>transmission-gtk</execute>
+				</action>
+			</item>
+			<item label="YouTube-DL">
+				<action name="Execute">
+					<execute>youtube-dl-gui</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-973610" label="Diseño">
+			<item label="Gimp">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-213643" label="Oficina">
+			<item label="KeePassXC">
+				<action name="Execute">
+					<execute>keepassxc</execute>
+				</action>
+			</item>
+			<item label="Leafpad">
+				<action name="Execute">
+					<execute>leafpad</execute>
+				</action>
+			</item>
+			<item label="Calculadora">
+				<action name="Execute">
+					<execute>mate-calc</execute>
+				</action>
+			</item>
+			<item label="Okular">
+				<action name="Execute">
+					<execute>okular</execute>
+				</action>
+			</item>
+			<item label="Calibre">
+				<action name="Execute">
+					<execute>calibre</execute>
+				</action>
+			</item>
+			<item label="Writer">
+				<action name="Execute">
+					<execute>libreoffice --writer</execute>
+				</action>
+			</item>
+			<item label="Calc">
+				<action name="Execute">
+					<execute>libreoffice --calc</execute>
+				</action>
+			</item>
+			<item label="Impress">
+				<action name="Execute">
+					<execute>libreoffice --impress</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-40406" label="Multimedia">
+			<item label="VLC">
+				<action name="Execute">
+					<execute>vlc</execute>
+				</action>
+			</item>
+			<item label="Kodi">
+				<action name="Execute">
+					<execute>kodi</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-544037" label="Juegos">
+			<item label="DosBox">
+				<action name="Execute">
+					<execute>dosbox</execute>
+				</action>
+			</item>
+			<item label="RetroArch">
+				<action name="Execute">
+					<execute>retroarch</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="40" label="Setup">
+			<menu id="40-263648" label="Optimizadores">
+				<item label="Firefox Profile Cleaner">
+					<action name="Execute">
+						<execute>xterm -e profile-cleaner f</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="client-list-menu"/>
+			<item label="Openbox">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Menu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Atajos de teclado">
+				<action name="Execute">
+					<execute>obkey</execute>
+				</action>
+			</item>
+			<item label="Estilo visual">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item label="Sonido">
+				<action name="Execute">
+					<execute>pavucontrol</execute>
+				</action>
+			</item>
+			<item label="Refrescar">
+				<action name="Reconfigure"/>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="root-menu-922217" label="Apagar">
+			<item label="Cerrar sesión">
+				<action name="Exit"/>
+			</item>
+			<item label="Reiniciar">
+				<action name="Execute">
+					<execute>xterm -e reboot</execute>
+				</action>
+			</item>
+			<item label="Apagar">
+				<action name="Execute">
+					<execute>xterm -e shutdown -h now</execute>
+				</action>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
