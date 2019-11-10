@@ -1,0 +1,6 @@
+setxkbmap es &
+feh --bg-scale ~/Imágenes/wallhaven-968771.jpg &
+conky &
+redshift -t 4500:3500 &
+stalonetray -t --dockapp-mode simple &
+xscreensaver -no-splash
