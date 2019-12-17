@@ -1,0 +1,15 @@
+set linenumbers
+set autoindent
+set backup
+set tabsize 2
+set tabstospaces
+set mouse
+set casesensitive
+set historylog
+set softwrap
+set atblanks
+set nowrap
+set showcursor
+set boldtext
+
+include "/usr/share/nano-syntax-highlighting/*.nanorc"
